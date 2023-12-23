@@ -19,7 +19,7 @@ export const Course = ({name, speaker, location, isNew, date}: CourseProps) => {
                 <Badge variant="secondary">New!</Badge> : null}
         </div>
         <div className="flex flex-col gap-2">
-            <h2 className="font-3xl font-extrabold">{speaker}</h2>
+            <h2 className="font-3xl font-bold">{speaker}</h2>
             <div>
                 <p className="text-sm text-gray-500">Location: {location}</p>
                 <p className="text-sm text-gray-500">Date: {format(date, "MMMM dd, yyy")}</p>
